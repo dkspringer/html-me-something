@@ -1,0 +1,26 @@
+body {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #005;
+  font-size: 80%;
+  font-family: Helvetica, sans-serif;
+}
+
+.team {
+  background: white;
+  padding: 5px 50px;
+}
+
+figure {
+  text-align: center;
+}
+
+figure figcaption {
+  color: #888;
+  font-size: 90%;
+}
+
+img, video {
+  width: 75%;
+}

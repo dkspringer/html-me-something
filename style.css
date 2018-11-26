@@ -1,8 +1,6 @@
 body {
   width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
-  background-color: #005;
+  background-color: #131330;
   font-size: 80%;
   font-family: Helvetica, sans-serif;
 }
@@ -12,15 +10,63 @@ body {
   padding: 5px 50px;
 }
 
-figure {
+figure, h1, h2, header, footer {
   text-align: center;
 }
 
 figure figcaption {
   color: #888;
   font-size: 90%;
+  font-style: italic;
+}
+
+footer {
+  color: #ccf;
+}
+
+header {
+  background: url("images/coors-field.jpg");
+  color: white;
+  padding: 400px 100px;
+}
+
+h1 {
+  font-size: 1000%;
+  text-shadow: 4px 4px black;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 img, video {
+  margin: 10px;
   width: 75%;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+nav ul {
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 2em;
+  font-size: 2em;
+  
+}
+
+nav ul li a {
+  color: white;
+  text-shadow: 4px 4px black;
+  text-decoration: none;
+}
+
+.spacer {
+  margin-top: 10px;
 }
